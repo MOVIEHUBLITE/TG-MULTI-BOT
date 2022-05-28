@@ -30,14 +30,14 @@ async def start_message(bot, message):
         photo=random.choice(PICS),
         caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-            InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+            InlineKeyboardButton("🔗 SOURCE 🔗", url="https://t.me/BETA_BOTSUPPORT"),
+            InlineKeyboardButton("✨ UPDATES ✨", url="https://t.me/BETA_UPDATES")
             ],[            
-            InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
-            InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
+            InlineKeyboardButton("ℹ️ HELP", callback_data="help"),
+            InlineKeyboardButton("😉 FUN", callback_data="fun")
             ],[
             InlineKeyboardButton("👨‍💻 𝐃𝐄𝐕𝐒 👨‍💻 ", callback_data="devs"),
-            InlineKeyboardButton("🤖 𝐀𝐁𝐎𝐔𝐓", callback_data="about")
+            InlineKeyboardButton("🤖 ABOUT", callback_data="about")
             ]]
             )
         )
