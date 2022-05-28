@@ -30,8 +30,8 @@ async def start_message(bot, message):
         photo=random.choice(PICS),
         caption=f"Hello {message.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",               
         reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("🔗 SOURCE 🔗", url="https://t.me/BETA_BOTSUPPORT"),
-            InlineKeyboardButton("✨ UPDATES ✨", url="https://t.me/BETA_UPDATES")
+            InlineKeyboardButton("🔗 SOURCE 🔗", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
+            InlineKeyboardButton("✨ UPDATES ✨", url="https://t.me/MOVIE_HUB_BOTS")
             ],[            
             InlineKeyboardButton("ℹ️ HELP", callback_data="help"),
             InlineKeyboardButton("😉 FUN", callback_data="fun")
