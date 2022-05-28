@@ -7,13 +7,13 @@ logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)             
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("5524164088:AAGns9OppBBEPXvrvBaX_F5SE_GPLm4_FYY", "")
 
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("8406611", ""))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("5820bc246505e0ff60af5391d649f9a6", "")
 
-FORCE_SUB = os.environ.get("FORCE_SUB", None)           
+FORCE_SUB = os.environ.get("-1001675753014",)           
 
 class App(Client):
 
