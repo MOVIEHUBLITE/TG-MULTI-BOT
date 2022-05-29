@@ -59,8 +59,8 @@ async def callback(bot, msg):
          await msg.message.edit(
              text=f"Hello {msg.from_user.mention}👋🏻\nI'am A Multi use Bot with many usefull features.\neg:- Telegarph, Channel ID, User ID, Fun, Group Id etc...\nYou can see My commands by below button... \n\n◉ send channel last message with forwerd tag to get the channel id 💯",          
              reply_markup=InlineKeyboardMarkup( [[
-                  InlineKeyboardButton("❣️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/BETA_BOTSUPPORT"),
-                  InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/BETA_UPDATES")
+                  InlineKeyboardButton("❣️ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐂𝐎𝐃𝐄 ❣️", url="https://github.com/Jeolpaul/TG-MULTI-BOT"),
+                  InlineKeyboardButton("📢 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Movie_Hub_Bots")
                   ],[            
                   InlineKeyboardButton("ℹ️ 𝐇𝐄𝐋𝐏", callback_data="help"),
                   InlineKeyboardButton("😉 𝐅𝐔𝐍", callback_data="fun")
@@ -108,10 +108,10 @@ async def callback(bot, msg):
          await msg.message.edit(
              text="🤖 This is My botz 😁",
                  reply_markup=InlineKeyboardMarkup( [[
-                     InlineKeyboardButton("ℹ️ 𝐌𝐎𝐕𝐈𝐄 𝐁𝐎𝐓", url="https://t.me/GeorgeMalarobot"),
-                     InlineKeyboardButton("🎵 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓", url="https://t.me/Kochirajavu_musicbot")
+                     InlineKeyboardButton("🗳️ Spam Bot", url="https://t.me/spam_Protector_v1_Bot"),
+                     InlineKeyboardButton("🎬 Movie Bot", url="https://t.me/Xxxtentacionlegendbot")
                      ],[
-                     InlineKeyboardButton("🎖️ 𝐆𝐑𝐎𝐔𝐏 𝐌𝐀𝐍𝐀𝐆𝐄𝐑 🎖️", url="https://t.me/BETA_GROUPMANAGBOT")
+                     InlineKeyboardButton("🎥 Series Bot", url="https://t.me/@Netflix_Series_MHbot")
                      ],[                   
                      InlineKeyboardButton("↩️ 𝐁𝐀𝐂𝐊", callback_data="start"),
                      InlineKeyboardButton("🔒 𝐂𝐋𝐎𝐒𝐄", callback_data="close")
