@@ -36,7 +36,7 @@ async def callback(bot, msg):
    elif data == "about":
          await msg.message.edit(
              text=f""" 
-╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
+╔════❰ MH ID BOT ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot.mention}
 ║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/JP_Jeol_org>ᴊᴇᴏʟ</a>
